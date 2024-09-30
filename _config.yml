@@ -8,6 +8,7 @@ theme: minima # Remove or replace if using a remote theme
 # To use Minimal Mistakes, specify it as a remote theme
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
