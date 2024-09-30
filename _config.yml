@@ -1,13 +1,9 @@
 title: Ishwar Netam
 description: Software Developer | Open Source Enthusiast | Tech Blogger
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ishwarnetam.github.io" # the base hostname & protocol for your site
+url: "https://ishwarnetam.github.io"
+baseurl: "" # leave empty for user/organization sites
 
-theme: minima # Remove or replace if using a remote theme
-
-# To use Minimal Mistakes, specify it as a remote theme
 remote_theme: mmistakes/minimal-mistakes@4.24.0
-
 
 plugins:
   - jekyll-remote-theme
@@ -15,8 +11,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
-
-# Navigation links
 navigation:
   - title: Home
     url: /
@@ -28,11 +22,19 @@ navigation:
     url: /projects/
   - title: Contact
     url: /contact/
-markdown: kramdown
-kramdown:
-  input: GFM
 
-# Social links
 github_username: Ishwar75
-linkedin_username: Ishwarnetam.linkden.in
+linkedin_username: your-linkedin-username
 twitter_username: your-twitter-username
+
+# Optional: Google Analytics
+google_analytics: UA-XXXXXXXXX-X
+
+# Optional: Social Icons
+social_links:
+  - icon: fa-github
+    url: https://github.com/Ishwar75
+  - icon: fa-linkedin
+    url: https://www.linkedin.com/in/your-linkedin-username/
+  - icon: fa-twitter
+    url: https://twitter.com/your-twitter-username
