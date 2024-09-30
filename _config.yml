@@ -25,6 +25,9 @@ navigation:
     url: /projects/
   - title: Contact
     url: /contact/
+markdown: kramdown
+kramdown:
+  input: GFM
 
 # Social links
 github_username: Ishwar75
