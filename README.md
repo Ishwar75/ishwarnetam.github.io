@@ -1,5 +1,5 @@
-title: Your Name
-description: A short description of your site
+title: This is Ishwar 
+description: I am an Integrated Msc Student.
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
   - jekyll-remote-theme
