@@ -29,11 +29,11 @@ navigation:
   - title: Home
     url: "/"
   - title: About Me
-    url: "/aboutme/"
-  - title: Projects
-    url: "/projects/"
-  - title: Contact Me
-    url: "/contactme/"
+    url: "/about_me.html"
+  - title: Research
+    url: "/research.html"
+  - title: Contact
+    url: "/contact.html"
   # Add more as needed
 
 # SEO Configuration
