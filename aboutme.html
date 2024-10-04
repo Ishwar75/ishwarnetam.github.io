@@ -56,17 +56,19 @@
             background-color: rgba(255, 255, 255, 0.3);
         }
         .contact {
-            position: absolute;
-            bottom: 10px;
-            left: 10px;
-            display: flex;
-            align-items: center;
-            font-size: 1em;
+            margin-top: 30px; /* Spacing above the contact section */
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8); /* Darker background for contact frame */
+            border-radius: 10px;
         }
         .contact img {
             width: 24px; /* Set logo size */
             margin-left: 10px;
             cursor: pointer;
+        }
+        .contact p {
+            margin: 0; /* Remove default margin from paragraphs */
+            display: inline; /* Align text and images */
         }
     </style>
 </head>
@@ -120,14 +122,5 @@
     <div class="contact">
         <p>Email: <a href="mailto:iknetam75@gmail.com" style="color: white;">iknetam75@gmail.com</a></p>
         <p>Call: <a href="tel:+XXXXXXXXXX"><img src="call-icon.png" alt="Call Icon"></a></p>
-        <a href="https://www.instagram.com/yourusername" target="_blank">
-            <img src="instagram-logo.png" alt="Instagram Logo">
-        </a>
-        <a href="https://www.linkedin.com/in/yourusername" target="_blank">
-            <img src="linkedin-logo.png" alt="LinkedIn Logo">
-        </a>
-    </div>
+        <a href
 
-    <a href="index.html">Go back to Home</a>
-</body>
-</html>
