@@ -1,40 +1,37 @@
-title: Your Site Title
+title: Ishwar Netaam
 description: A brief description of your site.
+url: "https://ishwarnetam.github.io" # your site URL
+baseurl: "" # leave empty for user site
+
 remote_theme: mmistakes/minimal-mistakes@4.24.0
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-include-cache
+# Author
+author:
+  name: Ishwar Netaam
+  email: your-email@example.com
 
+# Social Links
+social:
+  - icon: github
+    link: https://github.com/ishwar75
+  - icon: twitter
+    link: https://twitter.com/yourusername
+  - icon: linkedin
+    link: https://linkedin.com/in/yourusername
+  # Add more as needed
+
+# Navigation
 navigation:
   - title: Home
     url: /
-  - title: About
-    url: /about/
-  - title: Resume
-    url: /resume/
-  - title: Projects
-    url: /projects/
-  - title: Contact
-    url: /contact/
+  - title: About Me
+    url: /aboutme
+  - title: Contact Me
+    url: /contactme
+  # Add more as needed
 
-github_username: Ishwar75
-linkedin_username: your-linkedin-username
-twitter_username: your-twitter-username
-
-# Optional: Google Analytics
-google_analytics: UA-XXXXXXXXX-X
-
-# Optional: Social Icons
-social_links:
-  - icon: fa-github
-    url: https://github.com/Ishwar75
-  - icon: fa-linkedin
-    url: https://www.linkedin.com/in/your-linkedin-username/
-  - icon: fa-twitter
-    url: https://twitter.com/your-twitter-username
+# Optional: Customize other settings as per Minimal Mistakes documentation
