@@ -1,12 +1,12 @@
 ---
-layout: single
+layout: page
 title: About Me
 permalink: /about_me.html
 ---
 
 # About Me
 
-![Background Image](/assets/images/about-background.jpg)
+![About Me Background]()
 
 ## Who I Am
 
