@@ -1,12 +1,12 @@
 ---
 layout: single
 title: Contact Me
-permalink: /contactme/
+permalink: /contact.html
 ---
 
 # Contact Me
 
-![Contact Me Background](assets/images/contact-background.jpg)
+![Background Image](/assets/images/contact-background.jpg)
 
 ## Get in Touch
 
