@@ -1,9 +1,9 @@
-title: Ishwar Netam
-description: Software Developer | Open Source Enthusiast | Tech Blogger
-url: "https://ishwarnetam.github.io"
-baseurl: "" # leave empty for user/organization sites
-
+title: Your Site Title
+description: A brief description of your site.
 remote_theme: mmistakes/minimal-mistakes@4.24.0
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 plugins:
   - jekyll-remote-theme
