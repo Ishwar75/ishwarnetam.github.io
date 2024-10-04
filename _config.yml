@@ -1,35 +1,59 @@
+title: Ishwar Netaam
+description: A passionate software developer specializing in web development.
+url: "https://ishwarnetam.github.io" # your site URL
+baseurl: "" # leave empty for user site
+
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Author
+author:
+  name: Ishwar Netaam
+  email: your-email@example.com
+
+# Social Links
+social:
+  - icon: github
+    link: "https://github.com/ishwar75"
+  - icon: twitter
+    link: "https://twitter.com/yourusername"
+  - icon: linkedin
+    link: "https://linkedin.com/in/yourusername"
+  # Add more as needed
+
+# Navigation
 navigation:
   - title: Home
-    url: /
+    url: "/"
   - title: About Me
-    url: /aboutme/
+    url: "/aboutme/"
   - title: Projects
-    url: /projects/
+    url: "/projects/"
   - title: Contact Me
-    url: /contactme/
-navigation:
-  - title: Home
-    url: /
-  - title: About
-    url: /aboutme/
-    subnavigation:
-      - title: Skills
-        url: /skills/
-      - title: Experience
-        url: /experience/
-  - title: Projects
-    url: /projects/
-  - title: Contact
-    url: /contactme/
-/* Custom Navigation Styles */
-.navbar {
-  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
-}
+    url: "/contactme/"
+  # Add more as needed
 
-.navbar a {
-  color: #ffffff !important; /* White text for links */
-}
+# SEO Configuration
+seo:
+  title: "Ishwar Netaam Portfolio"
+  description: "A passionate software developer specializing in web development."
+  keywords: ["developer", "software", "web development", "portfolio"]
+  lang: "en"
+  twitter:
+    site: "@yourtwitterhandle"
+    creator: "@yourtwitterhandle"
+  open_graph:
+    type: "website"
+    locale: "en_US"
+    url: "https://ishwarnetam.github.io"
+    title: "Ishwar Netaam Portfolio"
+    description: "A passionate software developer specializing in web development."
+    image: "/assets/images/seo-image.jpg"
 
-.navbar a:hover {
-  color: #1e90ff !important; /* Highlight color on hover */
-}
+# Google Analytics (Optional)
+google_analytics: "UA-XXXXXXXXX-X"
+
+# Optional: Customize other settings as per Minimal Mistakes documentation
