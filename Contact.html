@@ -10,17 +10,59 @@
             padding: 50px;
             text-align: center;
             background-image: url('https://nis.consulting/wp-content/uploads/2016/10/24_Contact-Us-Header_Background.jpg');
-            background-size: cover; /* Cover the entire background */
-            background-position: center; /* Center the image */
-            color: white; /* Set text color to white for contrast */
+            background-size: cover; 
+            background-position: center; 
+            color: white; 
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        .contact-info {
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
+            border-radius: 10px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 1.5em; /* Larger icon size */
         }
     </style>
 </head>
 <body>
     <h1>Contact Me</h1>
     <p>You can reach me at:</p>
-    <p>Email: <a href="mailto:iknetam75@gmail.com" style="color: white;">iknetam75@gmail.com</a></p>
-    <p>Contact Number: <span style="color: white;">XXXXXXXXXX</span></p>
+    <div class="contact-info">
+        <p>Email: <a href="mailto:iknetam75@gmail.com" style="color: white;">iknetam75@gmail.com</a></p>
+        <p>Contact Number: <span style="color: white;">XXXXXXXXXX</span></p>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://www.instagram.com/yourusername" target="_blank" style="color: white;">&#x1F4F7;</a> <!-- Camera Emoji -->
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank" style="color: white;">&#x1F465;</a> <!-- Two People Emoji -->
+        <!-- Add more social media links as needed -->
+    </div>
 
     <a href="index.html" style="color: white;">Go back to Home</a>
 </body>
