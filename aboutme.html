@@ -70,9 +70,24 @@
             margin: 0; /* Remove default margin from paragraphs */
             display: inline; /* Align text and images */
         }
+        .home-link {
+            position: absolute; /* Position link at the top */
+            top: 20px; /* Distance from top */
+            left: 20px; /* Distance from left */
+            font-size: 1.2em;
+            color: white;
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.6); /* Background for better visibility */
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .home-link:hover {
+            background: rgba(255, 255, 255, 0.3); /* Change color on hover */
+        }
     </style>
 </head>
 <body>
+    <a class="home-link" href="index.html">Home</a> <!-- Link to Home -->
     <h1>About Me</h1>
     <p>Hello! I'm Ishwar, an Integrated MSc Student with a passion for exploring new ideas and technologies. Currently, I am diving into the world of scientific research.</p>
     
@@ -122,5 +137,14 @@
     <div class="contact">
         <p>Email: <a href="mailto:iknetam75@gmail.com" style="color: white;">iknetam75@gmail.com</a></p>
         <p>Call: <a href="tel:+XXXXXXXXXX"><img src="call-icon.png" alt="Call Icon"></a></p>
-        <a href
+        <a href="https://www.instagram.com/yourusername" target="_blank">
+            <img src="instagram-logo.png" alt="Instagram Logo">
+        </a>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+            <img src="linkedin-logo.png" alt="LinkedIn Logo">
+        </a>
+    </div>
 
+    <a href="index.html">Go back to Home</a>
+</body>
+</html>
