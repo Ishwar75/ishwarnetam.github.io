@@ -8,15 +8,23 @@
         body {
             font-family: Arial, sans-serif;
             padding: 50px;
-            text-align: center;
+            text-align: left; /* Align text to the left */
             background-image: url('https://images.unsplash.com/photo-1475070929565-c985b496cb9f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max');
             background-size: cover;
             background-position: center;
             color: white;
+            max-width: 800px; /* Limit the width for better readability */
+            margin: auto; /* Center the content */
         }
         h1 {
             font-size: 3em;
             margin-bottom: 20px;
+            text-align: center; /* Center the main heading */
+        }
+        h2 {
+            margin-top: 20px;
+            border-bottom: 2px solid white; /* Underline subheadings */
+            padding-bottom: 5px;
         }
         p {
             font-size: 1.2em;
@@ -28,6 +36,10 @@
             background: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
             border-radius: 10px;
         }
+        ul {
+            list-style-type: disc; /* Bullet points */
+            padding-left: 20px; /* Indent list items */
+        }
         a {
             display: inline-block;
             margin-top: 20px;
@@ -37,6 +49,7 @@
             text-decoration: none;
             border-radius: 5px;
             font-size: 1.2em;
+            text-align: center;
         }
         a:hover {
             background-color: rgba(255, 255, 255, 0.3);
@@ -52,9 +65,9 @@
         <p>Here are some of my key skills:</p>
         <ul>
             <li>Data Analysis</li>
-            <li>Programming (Python, C/C++,FORTRAN)</li>
-            <li>Linx</li>
-            <li>and many more...</li>
+            <li>Programming (Python, C/C++, FORTRAN)</li>
+            <li>Linux</li>
+            <li>And many more...</li>
         </ul>
     </div>
 
@@ -62,7 +75,7 @@
         <h2>Interests</h2>
         <p>In my free time, I enjoy:</p>
         <ul>
-            <li>Loading...........</li>
+            <li>Reading about scientific discoveries</li>
             <li>Exploring nature through hiking</li>
             <li>Learning about astronomy</li>
             <li>Playing video games</li>
