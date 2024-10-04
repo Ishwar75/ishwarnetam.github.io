@@ -15,6 +15,7 @@
             color: white;
             max-width: 800px; /* Limit the width for better readability */
             margin: auto; /* Center the content */
+            position: relative; /* Allow absolute positioning for the name */
         }
         h1 {
             font-size: 3em;
@@ -53,6 +54,19 @@
         }
         a:hover {
             background-color: rgba(255, 255, 255, 0.3);
+        }
+        .contact {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            display: flex;
+            align-items: center;
+            font-size: 1em;
+        }
+        .contact img {
+            width: 24px; /* Set logo size */
+            margin-left: 10px;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -103,6 +117,17 @@
         </ul>
     </div>
     
+    <div class="contact">
+        <p>Email: <a href="mailto:iknetam75@gmail.com" style="color: white;">iknetam75@gmail.com</a></p>
+        <p>Call: <a href="tel:+XXXXXXXXXX"><img src="call-icon.png" alt="Call Icon"></a></p>
+        <a href="https://www.instagram.com/yourusername" target="_blank">
+            <img src="instagram-logo.png" alt="Instagram Logo">
+        </a>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+            <img src="linkedin-logo.png" alt="LinkedIn Logo">
+        </a>
+    </div>
+
     <a href="index.html">Go back to Home</a>
 </body>
 </html>
