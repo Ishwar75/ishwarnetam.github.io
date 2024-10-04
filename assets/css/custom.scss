@@ -1,26 +1,31 @@
----
----
-
-@import "minimal-mistakes";
-
-/* Your custom styles go below */
-
-body {
-  background-color: #ffffff;
-  color: #333333;
+/* Background for About Me Page */
+.page--aboutme {
+  background-image: url('../images/about-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0; /* Adjust padding as needed */
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #2c3e50;
+/* Background for Contact Me Page */
+.page--contactme {
+  background-image: url('../images/contact-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0; /* Adjust padding as needed */
 }
 
-a {
-  color: #1e90ff;
-  text-decoration: none;
+/* Hero Section on Home Page */
+.hero-section {
+  background-image: url('../images/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; /* Text color */
+  text-align: center;
 }
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Add more custom styles as needed */
