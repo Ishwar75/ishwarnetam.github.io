@@ -1,24 +1,36 @@
 /* Background for About Me Page */
-.page--aboutme {
-  background-image: url('../images/about-background.jpg');
+.page--about_me {
+  background-image: url('/assets/images/about-background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 100px 0; /* Adjust padding as needed */
+  color: #ffffff; /* Text color for contrast */
 }
 
 /* Background for Contact Me Page */
-.page--contactme {
-  background-image: url('../images/contact-background.jpg');
+.page--contact {
+  background-image: url('/assets/images/contact-background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 100px 0; /* Adjust padding as needed */
+  padding: 100px 0;
+  color: #ffffff;
+}
+
+/* Background for Research Page */
+.page--research {
+  background-image: url('/assets/images/research-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  color: #ffffff;
 }
 
 /* Hero Section on Home Page */
 .hero-section {
-  background-image: url('../images/hero-background.jpg');
+  background-image: url('/assets/images/hero-background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
