@@ -3,7 +3,7 @@ description: A passionate software developer specializing in web development.
 url: "https://ishwarnetam.github.io" # your site URL
 baseurl: "" # leave empty for user site
 
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+theme: minima
 
 plugins:
   - jekyll-feed
@@ -56,4 +56,4 @@ seo:
 # Google Analytics (Optional)
 google_analytics: "UA-XXXXXXXXX-X"
 
-# Optional: Customize other settings as per Minimal Mistakes documentation
+# Optional: Customize other settings as per Minima documentation
