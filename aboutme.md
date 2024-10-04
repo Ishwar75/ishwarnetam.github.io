@@ -1,26 +1,25 @@
 ---
 layout: single
-title: "About"
-permalink: /about/
+title: About Me
+permalink: /aboutme/
 ---
 
-## About Me
+# About Me
 
-Hello! I'm **Ishwar Netam**, a passionate software developer with expertise in [Your Specialization, e.g., web development, data science]. I enjoy building applications that make a difference and constantly strive to learn new technologies.
+![About Me Background](assets/images/about-background.jpg)
 
-### Skills
+## Who I Am
 
-- **Programming Languages:** Python, JavaScript, Java
-- **Web Technologies:** HTML5, CSS3, React, Node.js
-- **Databases:** MySQL, MongoDB
-- **Tools & Platforms:** Git, Docker, AWS
+I'm Ishwar Netaam, a software developer with a passion for creating impactful solutions. I specialize in web development, particularly in building responsive and dynamic websites.
 
-### Education
+## My Skills
 
-- **Bachelor of Technology in Computer Science**
-  - *Your University Name*, Year of Graduation
+- **Languages:** HTML, CSS, JavaScript, Ruby
+- **Frameworks:** Ruby on Rails, React
+- **Tools:** Git, GitHub, VS Code, Docker
 
-### Experience
+## My Journey
 
-- **Software Developer** at *Company Name* (Year - Present)
-  - Brief description of your role and achievements.
+[Provide a brief overview of your professional journey, education, and experiences.]
+
+<!-- Add more sections as needed -->
