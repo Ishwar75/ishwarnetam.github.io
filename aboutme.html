@@ -10,15 +10,64 @@
             padding: 50px;
             text-align: center;
             background-image: url('https://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-02.jpg');
-            background-size: cover; /* Cover the entire background */
-            background-position: center; /* Center the image */
-            color: white; /* Set text color to white for contrast */
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        .skills, .interests {
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+            border-radius: 10px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
         }
     </style>
 </head>
 <body>
     <h1>About Me</h1>
-    <p>Hello! I'm Ishwar, an Integrated MSc Student. I am currently doing nothing.</p>
+    <p>Hello! I'm Ishwar, an Integrated MSc Student with a passion for exploring new ideas and technologies. Currently, I am diving into the world of scientific research.</p>
+    
+    <div class="skills">
+        <h2>Skills</h2>
+        <p>Here are some of my key skills:</p>
+        <ul>
+            <li>Data Analysis</li>
+            <li>Programming (Python, R)</li>
+            <li>Scientific Research</li>
+            <li>Web Development</li>
+        </ul>
+    </div>
+
+    <div class="interests">
+        <h2>Interests</h2>
+        <p>In my free time, I enjoy:</p>
+        <ul>
+            <li>Reading science fiction novels</li>
+            <li>Exploring nature through hiking</li>
+            <li>Learning about astronomy</li>
+            <li>Playing video games</li>
+        </ul>
+    </div>
     
     <a href="index.html">Go back to Home</a>
 </body>
