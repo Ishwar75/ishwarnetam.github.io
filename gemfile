@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
-gem "github-pages", "~> 232"
+gem "jekyll", "~> 4.2"
 gem "minimal-mistakes-jekyll", "~> 4.24.0"
-gem "faraday-retry" # For retry middleware with Faraday v2.0+
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+gem "faraday-retry" # As indicated in your logs
